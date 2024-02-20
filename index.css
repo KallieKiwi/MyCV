@@ -1,40 +1,140 @@
-#header {
-    padding: 25px 25px 25px 25px;
-    border: 1px solid black;
-    background-color: crimson;
-    text-align: center;
-    border-radius: 15px;
+.container {
+    max-width: 1000px;
+    display: flex;
+    border: 0px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px #333;
+    font-family: sans-serif;
 }
-#bio {
-    padding: 25px 25px 25px 25px;
-    border: 1px solid black;
-    background-color: whitesmoke;
-    text-align: center;
-    border-radius: 15px;
+
+.main-content {
+    width: 100%;
 }
-#bars {
-    padding: 10px 20px 20px 10px;
-    border: 1px solid black;
-    background-color: crimson;
-    text-align: center;
-    border-radius: 15px;
-    color: black;
-    width: 90%;
+
+.personal-information {
+    background-color: #fff;
+    padding: 20px;
+    padding-bottom: 5px;
 }
-#bars-container {
-    padding: 25px 25px 25px 25px;
-    border: 1px solid black;
-    background-color: whitesmoke;
-    text-align: center;
-    border-radius: 15px;
+
+.personal-information h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
 }
-#lists {
-    padding: 25px 25px 25px 25px;
-    border: 1px solid black;
-    background-color: crimson;
-    text-align: center;
-    border-radius: 15px;
+
+.personal-information h3 {
+    font-size: 20px;
+    color: #666;
 }
-body {
-   background-color: grey; 
+
+.personal-information p {
+    font-size: 14px;
+    color: #666;
+}
+
+.summary {
+    padding: 20px;
+    padding-bottom: 5px;
+}
+
+.summary h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+.summary p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.8;
+}
+
+.experience {
+    background-color: #fff;
+    padding: 20px;
+    padding-bottom: 5px;
+}
+
+.experience h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+.experience h4 {
+    font-size: 18px;
+}
+
+.experience ul {
+    margin-right: 10px;
+}
+
+.education {
+    background-color: #fff;
+    padding: 20px;
+    padding-bottom: 5px;
+}
+
+.education h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+.languages {
+    padding: 20px;
+    padding-bottom: 5px;
+}
+
+.languages h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+}
+
+.date {
+    margin-left: 250px;
+    font-size: 14px;
+}
+
+.side-content {
+    width: 40%;
+    margin-right: -15px;
+    background-color: rgb(4, 150, 150);
+    border: 0px;
+    border-radius: 0 20px 20px 0;
+}
+
+.side-content section {
+    margin-bottom: 20px;
+    padding: 30px;
+    padding-bottom: 20px;
+}
+
+.side-content section h3 {
+    margin-bottom: 10px;
+    border-bottom: 2px solid white;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.side-content section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.side-content section ul li {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: white;
 }
